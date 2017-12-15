@@ -11,6 +11,6 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  lineSpot = array.each_with_index {|x| puts "x"}
+  lineSpot = array.each_with_index {|x, index| puts x = index}
   array.collect {|x| "Hello,  #{x}! You'll be assigned to room #{lineSpot}!"}
 end
