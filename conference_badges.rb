@@ -15,8 +15,11 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  while array.length > 0 do
-    puts batch_badge_creator(array)
-    puts assign_rooms(array)
+  batch_badge_creator(array).each do |x|
+    puts x
+  end
+
+  assign_rooms(array).each do |y|
+    puts y
   end
 end
