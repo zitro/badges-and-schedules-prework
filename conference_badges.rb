@@ -9,3 +9,7 @@ def batch_badge_creator(array)
   badges = []
   badges = array.collect {|x| "Hello, my name is #{x}."}
 end
+
+def assign_rooms(array)
+  array.collect {|x| "Hello,  #{x}! You'll be assigned to room #{}!"}
+end
