@@ -7,5 +7,5 @@ end
 
 def batch_badge_creator(array)
   badges = []
-  badges = array.collect {|x| "Hello, my name is " + x + "."}
+  badges = array.collect {|x| "Hello, my name is #{x}."}
 end
